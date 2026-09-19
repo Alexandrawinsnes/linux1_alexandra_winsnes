@@ -1,0 +1,6 @@
+    1 #!/usr/bin/env bash
+    2
+   3 name-"bob"
+   4
+   5 echo "hej $name"
+
