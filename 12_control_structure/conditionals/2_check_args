@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 
+echo "Number of arguments provided: $#"
+
 if [[ $# -eq 0 ]]; then
 echo "provide one argument for your name"
 exit 1
 fi
 
-echo "Number of args provided: $#"
-echo "hello $1 $2"
+echo "Hello $1"
 
