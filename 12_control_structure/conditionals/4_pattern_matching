@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-filename="cool.txt"
+filename=$1
 
-if [[ "$filename" == *.txt ]]; then
-echo "$filename is a txt file"
+if [[ "$filename" == *.txt ]] then
+    echo "text file"
 elif [[ "$filename" == *.png ]]; then
-echo "$filename is a png file"
+    echo "image"
 fi
