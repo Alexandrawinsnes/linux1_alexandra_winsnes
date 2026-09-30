@@ -1,0 +1,9 @@
+#!/bin/bash
+
+    echo "Enter a side for square:"
+    read side
+
+perimeter=$((side * 4))
+area=$((side * side))
+
+    echo "A square with side $side has perimeter: $perimeter and area: $area"
