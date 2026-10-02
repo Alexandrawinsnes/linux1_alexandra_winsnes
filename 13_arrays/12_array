@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+fruits=(apple pear banana kiwi)
+echo "$fruits" 
+

@@ -1,0 +1,6 @@
+#!/usr/env/bin bash
+
+fruits=(apple pear banana kiwi)
+echo "$fruits"
+echo "${fruits[0]}"
+echo "${fruits[2]}"
